@@ -271,7 +271,7 @@ header {
     width: 450px;
 
     &.active {
-      p {
+      div {
         z-index: 9999;
         text-shadow: 5px 3px 5px #343434;
         color: #fff;
