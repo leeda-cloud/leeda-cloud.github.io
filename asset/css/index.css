@@ -651,11 +651,11 @@ header nav.on a {
 .home {
   overflow: hidden;
   position: relative;
-  background: url("../images/bg5.jpg") fixed 50% no-repeat;
+  background: url(../images/bg6.jpg) 50%/cover no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  -o-background-size: cover;
 }
 .home svg {
   position: absolute;
