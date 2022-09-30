@@ -92,13 +92,13 @@ window.addEventListener('scroll', function () {
 });
 
 
-// function appHeight() {
-// 	const vh = window.innerHeight * 0.01;
-// 	document.documentElement.style.setProperty('--vh', vh + 'px');
-// };
+function appHeight() {
+	const vh = window.innerHeight * 0.01;
+	document.documentElement.style.setProperty('--vh', vh + 'px');
+};
 
-// appHeight();
-// window.addEventListener('resize', appHeight);
+appHeight();
+window.addEventListener('resize', appHeight);
 
 window.onbeforeunload = function () {
 	window.scrollTo(0, 0);
