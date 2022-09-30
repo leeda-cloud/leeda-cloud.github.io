@@ -235,8 +235,7 @@ header {
 .home {
   overflow: hidden;
   position: relative;
-  background: url('../images/bg5.jpg') fixed no-repeat 50%;
-  background-size: cover;
+  background: url('../images/bg5.jpg') fixed 50% / cover no-repeat;
 
   svg {
     position: absolute;
@@ -672,7 +671,7 @@ footer {
     left: 1%;
   }
   .about-skill .pa1 {
-    top: 23%;
+    top: 16%;
     right: 3%;
   }
   .about-skill .about p {
