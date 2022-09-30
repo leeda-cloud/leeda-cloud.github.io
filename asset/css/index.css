@@ -690,7 +690,8 @@ header nav.on a {
 .home .h1-title {
   width: 450px;
 }
-.home .h1-title.active div {
+.home .h1-title.active .box {
+  display: block;
   z-index: 9999;
   text-shadow: 5px 3px 5px #343434;
   color: #fff;
