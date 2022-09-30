@@ -235,7 +235,10 @@ header {
 .home {
   overflow: hidden;
   position: relative;
-  background: url('../images/bg5.jpg') fixed 50% / cover no-repeat;
+  background: url('../images/bg5.jpg') fixed 50% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 
   svg {
     position: absolute;
